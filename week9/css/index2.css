@@ -1,0 +1,127 @@
+li{
+    list-style: none;
+}
+.m-title {
+    background-color: #018ceb;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.m-title>.col-md-1{
+    color: white;
+    position: relative;
+    top: 10px;
+}
+input.form-control.m-title-input {
+    background-color: white;
+    border: 0px;
+    background-image: url("..svg/search2.svg");
+    background-repeat: no-repeat;
+    background-position: 340px 10px;
+    color: #FFFFFF;
+}
+
+.m-content1.row{
+    margin: 20px 0 0 0;
+}
+.m-div1{
+    width: 600px;
+    height: 400px;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.m-div2{
+    background: #009cff;
+    width: 310px;
+    height: 80px;
+}
+
+.m-div3{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.m-div4{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.m-div5{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.m-div6{
+    border: 1px solid #e2e2e2;
+    height: 1000px;
+    position: relative;
+    left: 30px;
+    padding: 0 0;
+}
+.m-div7{
+    border: 1px solid #e2e2e2;
+    border-bottom: 2px solid #0091ee;
+    height: 230px;
+    position: relative;
+    left: 30px;
+    width: 580px;
+}
+.m-div8{
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 0 0;
+}
+.m-div9{
+    border-bottom: 1px solid #e2e2e2;
+    padding: 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px  0 0 0;
+}
+.m-div10{
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
+.m-ppt{
+    background: #ff763d;
+    border-radius: 3px;
+    width: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 10px;
+}
+.m-div11{
+    border-bottom: 1px solid #e2e2e2;
+    height: 100px;
+    width: 100px;
+}
+.m-div12{
+    background: #666666;
+    width: 300px;
+    height: 100px;
+    margin: 10px 0 0 10px;
+    position: relative;
+    left: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.m-div13{
+    background: #666666;
+    width: 150px;
+    height: 80px;
+    margin: 10px 0 0 10px;
+    display: flex;
+    align-items: flex-end;
+
+}

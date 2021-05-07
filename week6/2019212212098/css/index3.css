@@ -1,0 +1,133 @@
+li{
+    list-style: none;
+}
+.m-example{
+    opacity: .2;
+    position: fixed;
+    top: 0;
+}
+
+.m-body {
+    width: 1304px;
+    height: 844px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.div1{
+    width: 1268px;
+    height: 812px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    position: relative;
+    top: 10px;
+    left: 1px;
+}
+.box {
+    border:1px solid #e9e9e9;
+    /*background: #666666;*/
+    width: 412px;
+    height: 394px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 7px;
+}
+
+.pic{
+    width: 412px;
+    height: 278px;
+    justify-content: center;
+    display: flex;
+}
+.div2{
+    width: 412px;
+    height: 120px;
+    /*background: #666666;*/
+    /*opacity: .2;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.box1{
+    width: 412px;
+    height: 32px;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    left: 12px;
+    top: 2px;
+}
+.box2{
+    width: 412px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    font-size: 17px;
+}
+.box3{
+    width: 412px;
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    top: -10px;
+    position: relative;
+}
+.div3{
+    /*background: #666666;*/
+    /*opacity: 0.2;*/
+    width: 110px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #f7356b;
+    top: -4px;
+    left: 4px;
+}
+.div4{
+    /*background: #666666;*/
+    /*opacity: 0.2;*/
+    width: 310px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.div5{
+    background: #666666;
+    opacity: .2;
+}
+.span1{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+.span2{
+    font-size: 38px;
+}
+.div6{
+    font-size: 17px;
+    font-weight: bold;
+}
+.span3{
+    position: relative;
+    left: -9px;
+    font-size: 17px;
+}
+.span4{
+    position: relative;
+    left: 10px;
+    font-size: 17px;
+}
+.span5{
+    position: relative;
+    left: -33px;
+    font-size: 17px;
+}

@@ -1,0 +1,39 @@
+.m-mark{
+    width: 14px;
+    height:14px;
+    border: 1px solid #666;
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+    position: relative;
+
+}
+.m-mark:before{
+    content: "";
+    height: 0px;
+    width: 0px;
+    /* background: #ff0000; */
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: -1px;
+    border:8px solid #eee;
+    border-bottom: 8px solid transparent;
+}
+
+
+/* .m-mark:after{
+    content: "";
+    height: 0px;
+    width: 0px;
+    background: #ff0000;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: -1px;
+    border: 7px solid #fff;
+    border-bottom: 7px solid transparent;
+} */
+
+body {
+    padding: 50px;
+}
